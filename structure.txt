@@ -1,0 +1,33 @@
+1. Features
+- Register electricity customers
+- Generate unique customer IDs
+- Record monthly meter readings
+- Calculate electricity consumption
+- Calculate bills using slab-based tariffs
+- Add fixed charges and late fees
+- Track paid and unpaid bills
+- Record payments and generate receipts
+- View customer billing history
+- Generate monthly collection reports
+
+2. Project structure
+electricity_billing/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── customer_manager.py
+├── meter_manager.py
+├── billing_manager.py
+├── payment_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── customers.json
+    ├── readings.json
+    ├── bills.json
+    └── payments.json
